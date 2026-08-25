@@ -9,8 +9,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // In-memory storage for now — Lecture 4 replaces this with a real database container.
 let todos = [
-  { id: 1, text: 'Containerize this app with Docker', done: false },
-  { id: 2, text: 'Deploy it to AWS', done: false },
+  { id: 1, text: 'Containerize Docker', done: true },
+  { id: 2, text: 'Develop the repo', done: false },
 ];
 let nextId = 3;
 
